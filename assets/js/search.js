@@ -2,7 +2,7 @@
   SimpleJekyllSearch({
     searchInput: document.getElementById('layout-search__input'),
     resultsContainer: document.getElementById('layout-search__data'),
-    json: 'http://https://teat-account.github.io:80/assets/json/search.json',
+    json: 'http://teat-account.github.io:80/assets/json/search.json',
     searchResultTemplate: '<li><article>><a href="{url}"> {title} <span class="layout-search__data__entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
     noResultsText: '<p class="layout-search__data__not-search">Oh heavens, no results :(</p>',
     limit: 10,
