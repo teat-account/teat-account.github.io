@@ -2,8 +2,8 @@
   var disqus_config;
 
   disqus_config = function() {
-    this.page.url = 'http://teat-account.github.io/assets/js/disqus_comments.js';
-    this.page.identifier = 'http://teat-account.github.io/assets/js/disqus_comments.js';
+    this.page.url = 'https://teat-account.github.io/assets/js/disqus_comments.js';
+    this.page.identifier = 'https://teat-account.github.io/assets/js/disqus_comments.js';
     return false;
   };
 
